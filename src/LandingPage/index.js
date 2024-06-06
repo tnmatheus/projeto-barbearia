@@ -1,17 +1,17 @@
 export default function LandingPage() {
   return (
-    <div>
-      <header>
+    <div className="container">
+      <header className="limitar-secao">
         <div>
           <img src="assets/barbearia-logo.png" alt="logomarca" />
-          <button>
+          <button className="btn">
             <img src="assets/moon.png" alt="icone" />
             Dark
           </button>
         </div>
       </header>
-      <section></section>
-      <section>
+      <section className="secao-img"></section>
+      <section className="secao-textos">
         <div>
           <h1>Bem-vindo a Barber Shop</h1>
           <p>
