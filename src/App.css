@@ -5,59 +5,8 @@
   font-family: "Poppins", sans-serif;
 }
 
-
 .limitar-secao {
+  width: 100%;
   max-width: 1024px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.limitar-secao div {
-  width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.limitar-secao img {
-  width: 150px;
-  height: auto;
-}
-
-.btn {
-  width: 120px;
-  height: 50px;
-  border-color: #b2987d;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.btn img {
-  width: 30%;
-  height: auto;
-  margin-right: 10px;
-}
-
-.secao-img {
-  width: 100%;
-  height: 300px;
-  background-image: url(../public/assets/banner-barbearia.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.secao-textos div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 100px 250px;
-  gap: 25px;
 }
